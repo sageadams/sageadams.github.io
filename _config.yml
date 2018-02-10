@@ -13,16 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Men's Group
+email: sage.adams@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Men’s Group is a Reality TV show that explores the inner lives of men - from the dreams they have at night, to their worries about love and intimacy, fears about money and dating, the loneliness they feel from a lack of authentic connection with other men, and surprisingly often, the shame they experience just as a result of being a unique individual with needs. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: RealSageAdams
+github_username:  sage.adams@gmail.com
+sass:
+  sass_dir: _sass
+include: ['_pages']
 
 # Build settings
 markdown: kramdown
